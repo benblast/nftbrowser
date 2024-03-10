@@ -1,0 +1,21 @@
+.traitGrid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  width: 800px;
+  justify-self: center;
+  background: linear-gradient(90deg, #444, #454545, #444);
+  padding: 2px 0 2px 8px;
+}
+
+.traitWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 200px;
+  padding: 0 24px 0 24px;
+}
+
+.trait {
+  padding: 2px;
+  height: 44px;
+  font-size: 28px;
+}

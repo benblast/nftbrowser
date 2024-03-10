@@ -1,0 +1,11 @@
+.scrollGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  overflow-y: scroll;
+  height: 550px;
+}
+
+.filterList {
+  list-style: none;
+}

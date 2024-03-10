@@ -1,0 +1,110 @@
+.filterGrid {
+  display: grid;
+  grid-template-columns: 100px 200px 1fr;
+}
+
+.filterColumn {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.filterSelectGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.filterSecondaryGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.titleGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.spanRow {
+  grid-column: span 3;
+}
+
+.currentTraitList {
+  list-style: none;
+  text-align: center;
+  overflow-y: scroll;
+  padding: 0 0 0 12px;
+  height: 550px;
+}
+
+.columnTitle {
+  text-align: center;
+  font-size: 24px;
+  padding: 0 0 16px 0;
+}
+
+.filterButtons {
+  display: grid;
+  grid-template-columns: repeat(7, 100px);
+  justify-content: space-evenly;
+  padding-bottom: 24px;
+  transition: all 1s;
+}
+
+.filterButton {
+  background-color: #444;
+  cursor: pointer;
+  font-family: inherit;
+  height: 80px;
+  width: 120px;
+  border-radius: 6%;
+  font-size: 20px;
+  text-align: center;
+  color: #eee;
+  transition: all 0.2s;
+}
+
+.filterButton:hover {
+  background-color: #454545;
+  color: #fff;
+  box-shadow: 0 0 5px 0.2px #999;
+}
+
+.clearAll {
+  font-family: inherit;
+  font-size: 24px;
+  background-color: red;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.clearAll:hover {
+  box-shadow: 0 0 5px 0.1px red;
+}
+
+.restoreAll {
+  font-family: inherit;
+  font-size: 24px;
+  background-color: green;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.restoreAll:hover {
+  box-shadow: 0 0 5px 0.1px green;
+}
+
+.titleButton {
+  background-color: #444;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 22px;
+  width: 160px;
+  height: 80px;
+  border-radius: 6%;
+}
+
+.titleButton:hover {
+  background-color: #454545;
+  color: #fff;
+  box-shadow: 0 0 5px 0.2px #999;
+}

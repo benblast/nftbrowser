@@ -1,0 +1,19 @@
+.imageBrowserGrid {
+  display: grid;
+  padding: 50px;
+  height: 1800px;
+  grid-template-columns: repeat(4, 1fr);
+  overflow-y: scroll;
+  gap: 14px;
+}
+
+.smallImage {
+  width: 100%;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.smallImage:hover {
+  transform: scale(1.05);
+  z-index: 9999;
+}

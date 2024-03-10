@@ -1,0 +1,17 @@
+.mainGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.secondaryGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10fr 7fr 12fr;
+  background: linear-gradient(90deg, #222, #242424, #222);
+}
+
+.imageContainer {
+  display: grid;
+  justify-content: center;
+  padding-top: 64px;
+}

@@ -1,0 +1,31 @@
+.traitButton {
+  font-family: inherit;
+  color: #fff;
+  font-size: 26px;
+  width: 80%;
+  height: 50px;
+  margin-top: 8px;
+  background: #59981a;
+  border: none;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.traitButton:hover {
+  background: #81b622;
+}
+
+.traitButtonDeselect {
+  font-family: inherit;
+  font-size: 26px;
+  width: 80%;
+  height: 50px;
+  margin-top: 8px;
+  background: #8b0000;
+  border: none;
+  transition: all 0.4s;
+}
+
+.traitButtonDeselect:hover {
+  background: #ff0000;
+}
